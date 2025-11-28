@@ -61,7 +61,7 @@ export default function HomePage() {
                 transition={{ duration: 0.6, delay: 0.3 }}
                 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent"
               >
-                Hello, I'm Raynel
+                Hello, I&apos;m Raynel
               </motion.h1>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -102,7 +102,6 @@ export default function HomePage() {
       <ResumeModal
         isOpen={isResumeOpen}
         onClose={() => setIsResumeOpen(false)}
-        resumeUrl="/resume.pdf"
       />
     </>
   );

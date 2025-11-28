@@ -80,7 +80,7 @@ export default function AboutPage() {
               <div className="flex-1">
                 <h2 className="text-2xl font-semibold mb-3">Who I Am</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  I'm a <strong>BSIT 3rd Year Student</strong> passionate about web
+                  I&apos;m a <strong>BSIT 3rd Year Student</strong> passionate about web
                   development and creating innovative digital solutions. I love
                   learning new technologies and applying them to build real-world
                   applications that make a difference.

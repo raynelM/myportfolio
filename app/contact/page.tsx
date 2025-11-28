@@ -40,7 +40,7 @@ const itemVariants = {
     scale: 1,
     transition: {
       duration: 0.5,
-      type: "spring",
+      type: "spring" as const,
       stiffness: 100,
     },
   },
@@ -68,7 +68,7 @@ export default function ContactPage() {
             Get In Touch
           </h1>
           <p className="text-xl text-muted-foreground">
-            Let's connect and work together on amazing projects
+            Let&apos;s connect and work together on amazing projects
           </p>
         </motion.div>
 
